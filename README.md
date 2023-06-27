@@ -1,5 +1,8 @@
 # postgres-kubernetes
 
+*Le travail est effectué sur une instance EC2 d'AWS 
+*La distribution utilisée: Ubuntu 20.04
+
 1 ère étape: Installation de Docker en utilisant les commandes illustrées dans la figure ci-dessous:
 
 ![image](https://github.com/Islem99/postgres-kubernetes/assets/84632827/1f0e2032-4891-4b39-a658-d539cfdf380a)
