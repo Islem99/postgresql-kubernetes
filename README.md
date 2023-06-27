@@ -47,11 +47,11 @@ Vérification de namespace dans lequel on travaille:
 
 
 6 ème étape: 
-déploiement de postgresql sur kubernetes
+Déploiement de postgresql sur kubernetes
 
 ![image](https://github.com/Islem99/postgres-kubernetes/assets/84632827/21a805b1-78f1-4258-86ed-e7e5ec3c384d)
 
-donner les privilèges d'exécution au script
+Donner les privilèges d'exécution au script
 
 ![chmod](https://github.com/Islem99/postgres-kubernetes/assets/84632827/32e1db5f-ebde-417c-b849-72a54729ea4a)
 
@@ -79,5 +79,7 @@ Vérification des services
 
 ![services](https://github.com/Islem99/postgres-kubernetes/assets/84632827/e3cdb45b-92f2-417b-9038-113f67fa4209)
 
-
+Remarque:
+Il faut exécuter une autre fois la commande "kubectl get pods" pour voir les status des pods "running" car après la création de pod il faut attendre quelques secondes pour que son status soit "running" .
+La même chose pour kubectl get deployments
 
